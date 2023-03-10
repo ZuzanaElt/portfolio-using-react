@@ -1,0 +1,16 @@
+.wrapper {
+    /* all between header and footer*/
+   
+    /* height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: space-around;
+    align-content: flex-start;
+   width:100%;
+    border:black 3px solid; */
+    display: flex;
+  flex-direction: column;
+  padding: 16px;
+  }
+  

@@ -1,0 +1,44 @@
+[{
+    "id": 1,
+    "name": "Animaletics",
+    "screenshot": "",
+    "deployment-link": "",
+    "github-repo":""
+  },
+  {
+    "id": 1,
+    "name": "Daily Planner",
+    "screenshot": "",
+    "deployment-link": "",
+    "github-repo":""
+  },
+  {
+    "id": 1,
+    "name": "Weather App",
+    "screenshot": "",
+    "deployment-link": "",
+    "github-repo":""
+  },
+  {
+    "id": 1,
+    "name": "Password generator",
+    "screenshot": "",
+    "deployment-link": "",
+    "github-repo":""
+  },
+  {
+    "id": 1,
+    "name": "README generator",
+    "screenshot": "",
+    "deployment-link": "",
+    "github-repo":""
+  },
+  {
+    "id": 1,
+    "name": "Bootstrap portfolio",
+    "screenshot": "",
+    "deployment-link": "",
+    "github-repo":""
+  }
+
+]
