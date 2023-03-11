@@ -4,7 +4,7 @@ import './App.css';
 import Contact from "./components/Contact";
 import Home from "./pages/Home";
 
-import ProjectsGallery from "./pages/ProjectsGallery";
+import ProjectsGallery from "./pages/ProjectsGallery/ProjectsGallery";
 //import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Wrapper from "./components/Wrapper/Wrapper";
@@ -23,7 +23,7 @@ function App() {
             
               <Route path="/" element={<Home />} />
               <Route path="projectsgallery/" element={<ProjectsGallery/>} />
-                <Route path="ProjectsGallery/Project/" element={<ProjectCard/>} />
+                <Route path="projectsgallery/project/" element={<ProjectCard/>} />
               <Route path="contact/*" element={<Contact />} />
             
           </Routes>

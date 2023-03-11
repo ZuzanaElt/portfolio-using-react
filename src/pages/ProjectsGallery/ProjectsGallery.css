@@ -1,0 +1,62 @@
+
+/* .p {
+    color:red;
+}
+h1 {
+    color:brown;
+} */
+
+.cards{
+    display: grid;
+    grid-gap: 3rem;
+    text-align: left;
+    
+    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr));
+    margin:55pt;
+     
+}
+.card{
+    border: 5px solid brown;
+    background-color:rgb(238, 234, 229);
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    border-radius: 4px;
+    padding: .5rem;
+    box-shadow: 10px 5px 20px rgb(153, 121, 121);
+  
+    
+    
+}
+.proj-title{
+    font-size:28px; 
+    font-weight: bold;
+    font-family:serif;
+    padding-top: 12px;
+    padding-bottom: 20px;
+   
+}
+.img-image{
+    padding:5px 15px;
+    
+}
+
+
+.project-info{
+   
+    text-align: left;
+    font: 14px;
+    margin-left: 15pt;
+    width:90%;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.pageName{
+    background-color:brown;
+    color:white;
+    padding-left:20px;
+}

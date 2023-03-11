@@ -1,44 +1,44 @@
 [{
     "id": 1,
     "name": "Animaletics",
-    "screenshot": "",
-    "deployment-link": "",
-    "github-repo":""
+    "screenshot":"{../src/assets/animaletics.png}",
+    "deploymentLink": "https://dalvat.github.io/animaletics-api-app/",
+    "githubRepo":"https://github.com/ZuzanaElt/animaletics-api-app"
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Daily Planner",
     "screenshot": "",
-    "deployment-link": "",
-    "github-repo":""
+    "deploymentLink": "",
+    "githubRepo":""
   },
   {
-    "id": 1,
+    "id": 3,
     "name": "Weather App",
     "screenshot": "",
-    "deployment-link": "",
-    "github-repo":""
+    "deploymentLink": "",
+    "githubRepo":""
   },
   {
-    "id": 1,
+    "id": 4,
     "name": "Password generator",
     "screenshot": "",
-    "deployment-link": "",
-    "github-repo":""
+    "deploymentLink": "",
+    "githubRepo":""
   },
   {
-    "id": 1,
+    "id": 5,
     "name": "README generator",
     "screenshot": "",
-    "deployment-link": "",
-    "github-repo":""
+    "deploymentLink": "",
+    "githubRepo":""
   },
   {
-    "id": 1,
+    "id": 6,
     "name": "Bootstrap portfolio",
     "screenshot": "",
-    "deployment-link": "",
-    "github-repo":""
+    "deploymentLink": "",
+    "githubRepo":""
   }
 
 ]
