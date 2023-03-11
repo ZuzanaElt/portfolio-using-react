@@ -9,6 +9,11 @@
     
     list-style-type: none;
     text-align: center;
+    text-justify: auto;
+/*     
+    padding:3px; */
+    /* background-color: blue; */
+    
     
 }
 
@@ -18,4 +23,6 @@
   font-size: 20px;
   padding: 5px 30px ;
   justify-content:space-between;
+ 
+  /* background-color: red; */
 }
