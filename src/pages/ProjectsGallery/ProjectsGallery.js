@@ -1,12 +1,7 @@
 import React, { useState } from 'react';
-
-
 import ProjectsData from "../../ProjectsData.json";
-//import animaleticsImage from "../../assets/images/animaletics.png"
 import ProjectCardTemplate from "../../components/ProjectCardTemplate/ProjectCardTemplate";
-import "./ProjectsGallery.css"
-
-
+import "./ProjectsGallery.css";
 
 
 function ProjectsGallery() {
@@ -16,13 +11,14 @@ function ProjectsGallery() {
     <div>
       <h1  className="pageName" > Projects</h1>
       <section className="cards">
-      {projectsArray.map((projectEl) => (
+      {projectsArray.map((props) => (
           <ProjectCardTemplate
-          id={projectEl.id}
-          name={projectEl.name}
-          screenshot={projectEl.screenshot}
-          deploymentLink={projectEl.deploymentLink}
-          githubRepo={projectEl.githubRepo}
+          id={props.id}
+          name={props.name}
+          screenshot={props.screenshot}
+          deploymentLink={props.deploymentLink}
+          githubRepo={props.githubRepo}
+          additionalInfo={props.additionalInfo}
       />
       ))     
       }

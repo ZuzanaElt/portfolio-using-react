@@ -5,8 +5,8 @@ import Navbar from '../Navbar/Navbar';
 function Header (){
     return(
         <div className= "header">
-            
-            <Navbar/>
+            <p className="name-tag">ZUZANA KNIGHTOVA</p>
+            <p className="navbarHeader"><Navbar/></p>
             
         </div>
     );

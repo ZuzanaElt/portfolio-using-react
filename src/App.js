@@ -1,14 +1,14 @@
 import React  from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Contact from "./components/Contact";
+import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import ProjectsGallery from "./pages/ProjectsGallery/ProjectsGallery";
-import ProjectCardTemplate from "./components/ProjectCardTemplate/ProjectCardTemplate";
+//import ProjectCardTemplate from "./components/ProjectCardTemplate/ProjectCardTemplate";
 import Footer from "./components/Footer/Footer";
 import Wrapper from "./components/Wrapper/Wrapper";
 import Header from "./components/Header/Header";
-import ProjectIndividualPage from './pages/ProjectIndividualPage/ProjectIndividualPage';
+import Resume from "./pages/Resume";
 
 
 function App() {
@@ -22,9 +22,8 @@ function App() {
             
               <Route path="/" element={<Home />} />
               <Route path="projectsgallery/" element={<ProjectsGallery/>} />
-                <Route path="projectsgallery/project/" element={<ProjectIndividualPage/>} />
               <Route path="contact/*" element={<Contact />} />
-            
+              <Route path="resume/" element = {<Resume/>} />
           </Routes>
         </Wrapper>
         <Footer/>

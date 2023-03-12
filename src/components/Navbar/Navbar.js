@@ -15,7 +15,7 @@ function Navbar() {
                 isActive ? 'nav-link active' : 'nav-link'
             }
             >
-            Home
+            HOME
             </NavLink>
       </li>
       <li className="nav-item">
@@ -25,7 +25,7 @@ function Navbar() {
                 isActive ? 'nav-link active' : 'nav-link'
             }
             >
-            Projects Gallery
+            PROJECTS
             </NavLink>
       </li>
      
@@ -37,7 +37,18 @@ function Navbar() {
                 isActive ? 'nav-link active' : 'nav-link'
             }
             >
-            Contact
+            CONTACT
+            </NavLink>
+      </li>
+      <li className="nav-item">
+            <NavLink
+            to="resume"
+            end
+            className={({ isActive }) =>
+                isActive ? 'nav-link active' : 'nav-link'
+            }
+            >
+            RESUME
             </NavLink>
       </li>
       
