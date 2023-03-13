@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ProjectsData from "../../ProjectsData.json";
 import ProjectCardTemplate from "../../components/ProjectCardTemplate/ProjectCardTemplate";
 import "./ProjectsGallery.css";
+import animaletics from '../../assets/images/animaletics.png'
 
 
 function ProjectsGallery() {

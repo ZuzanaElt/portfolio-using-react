@@ -1,7 +1,7 @@
 [{
     "id": 1,
     "name": "Animaletics",
-    "screenshot":"./images/animaletics.png",
+    "screenshot":"./portfolio-using-react/images/animaletics.png",
     "deploymentLink": "https://dalvat.github.io/animaletics-api-app/",
     "githubRepo":"https://github.com/ZuzanaElt/animaletics-api-app",
     "additionalInfo":"Fun App for 5 to 7 year olds to help them learn about animals"
@@ -9,7 +9,7 @@
   {
     "id": 2,
     "name": "Daily Planner",
-    "screenshot": "./images/workDayScheduler.png",
+    "screenshot": "./portfolio-using-react/images/workDayScheduler.png",
     "deploymentLink": "https://zuzanaelt.github.io/day-planner-page-/ ",
     "githubRepo":"https://github.com/ZuzanaElt/day-planner-page-",
     "additionalInfo":"Plan your day with help of this day-planner"
@@ -17,7 +17,7 @@
   {
     "id": 3,
     "name": "Weather App",
-    "screenshot": "./images/weatherDashboard.png",
+    "screenshot": "./portfolio-using-react/images/weatherDashboard.png",
     "deploymentLink": "https://zuzanaelt.github.io/Weather-dashboard/",
     "githubRepo":"https://github.com/ZuzanaElt/Weather-dashboard",
     "additionalInfo":"Check temeperature around the world"
@@ -25,7 +25,7 @@
   {
     "id": 4,
     "name": "Password generator",
-    "screenshot": "./images/passwordGenerator.png",
+    "screenshot": "./portfolio-using-react/images/passwordGenerator.png",
     "deploymentLink": "https://zuzanaelt.github.io/password-generator/",
     "githubRepo":"https://github.com/ZuzanaElt/password-generator",
     "additionalInfo":"Let's generate a mind-bending password"
@@ -33,7 +33,7 @@
   {
     "id": 5,
     "name": "README generator",
-    "screenshot": "./images/readmePageGenerator.png",
+    "screenshot": "./portfolio-using-react/images/readmePageGenerator.png",
     "deploymentLink": "https://zuzanaelt.github.io/README-GENERATOR/",
     "githubRepo":"https://github.com/ZuzanaElt/README-GENERATOR",
     "additionalInfo":"Use this to generate a readme file"
@@ -41,7 +41,7 @@
   {
     "id": 6,
     "name": "Team Generator",
-    "screenshot": "./images/team-page.png",
+    "screenshot": "./portfolio-using-react/images/team-page.png",
     "deploymentLink": " https://zuzanaelt.github.io/Team-profile-generator/",
     "githubRepo":"https://github.com/ZuzanaElt/Team-profile-generator",
     "additionalInfo":"Generator to create a page of your team"
