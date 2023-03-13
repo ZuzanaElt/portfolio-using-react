@@ -1,11 +1,6 @@
 import './Hamburger.css'
 
 export default function Hamburger(){
-
-
-
-
-
     return (
         <>
         <div className="hamburger">
@@ -13,9 +8,6 @@ export default function Hamburger(){
             <div className="burger burger2"/>
             <div className="burger burger3"/>
         </div>
-        
-        
         </>
-
         )
 }

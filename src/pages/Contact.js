@@ -21,7 +21,7 @@ export const Contact = () => {
     <div className="contact-layout">
         <form ref={form} onSubmit={sendEmail} className="form-container">
           <div >
-            <p className="get-in-touch">To get in touch with me fill in the form:</p>
+            <p className="get-in-touch">To get in touch with me send me a message through this form. Or contact me through GitHub/LinkedIn.</p>
             <div className="form-fields">
             <label >Name   </label>
             <input type="text" name="user_name" className="fields" />

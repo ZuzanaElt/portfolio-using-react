@@ -6,8 +6,7 @@
 
 }
 .navigation ul{
-     
-     display:inline;
+    /* display: ${hamburgerOpen ? 'inline':'none' }; */
     display: flex;
     flex-wrap:wrap;
     float:right;
@@ -18,4 +17,8 @@
 .navigation ul li {
     list-style-type:none;
     padding-right:10px;
+}
+.navigation ul :hover{
+    font-size: 20px;
+    color:blue;
 }
