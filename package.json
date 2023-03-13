@@ -1,7 +1,7 @@
 {
   "name": "zapupster",
   "version": "0.1.0",
-  "homepage": "https://github.com/ZuzanaElt/portfolio-using-react",
+  "homepage": "https://ZuzanaElt.github.io/portfolio-using-react",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -26,9 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
-   
-    
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
