@@ -5,15 +5,11 @@
   
 }
 body {
-  
     background-color: white;
     color: brown;
     padding: 0px;
     margin: 0;
-    
     height:100vh;
-    /* font-family: "Avenir Next", Calibri, Verdana, sans-serif; */
-
     font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   }
 h1,
