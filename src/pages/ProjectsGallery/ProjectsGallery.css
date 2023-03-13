@@ -1,3 +1,6 @@
+.projects-layout{
+    background-color:rgb(214, 196, 196);
+}
 .pageName{
     background-color:brown;
     color:white;
@@ -5,12 +8,12 @@
 }
 .cards{
     display: grid;
-    /* grid-gap: 3rem; */
+    /* grid-gap: 1rem; */
     text-align: left;
-    
-    grid-template-columns: repeat(auto-fill, minmax(50vh, 1fr));
-    margin:20pt;
-    padding-bottom: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(50vh, 2fr));
+    margin:12pt;
+    margin-left: 15pt;
+    padding-bottom: 25px;
      
 }
 .card{
@@ -20,14 +23,17 @@
     /* flex-wrap: wrap; */
     /* flex-direction: column; */
     justify-content: center;
-    height: 100%;
+    /* width:80%; */
     text-align: center;
     border-radius: 4px;
-    padding: .5rem;
+    /* padding: .5rem; */
     box-shadow: 10px 5px 20px rgb(153, 121, 121);
   
-    
-    
+    height: 25pc;
+    overflow:auto;
+    border-bottom:15px solid brown;
+    /* margin-bottom:5px; */
+
 }
 .proj-title{
     font-size:28px; 
@@ -43,9 +49,28 @@
 
 
 .project-info{
-    text-align: left;
-    font: 14px;
+    text-align: center;
+    font: 22px;
     /* display:flex;
     flex-wrap: wrap;  */
+ 
+ padding:5px;
+ margin-top:25px;
+}
 
+/* .thick-line{
+    border:7px solid brown;
+    position:bottom;
+} */
+button {
+    /* padding:5% 5px; */
+    margin-right: 5%;
+    border-color:brown;
+    color:brown;
+    border-radius:20px;
+    background-color:rgb(201, 193, 193);
+}
+.buttons :hover {
+    color:red;
+    font-size:medium;
 }

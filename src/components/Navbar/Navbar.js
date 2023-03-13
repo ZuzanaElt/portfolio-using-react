@@ -1,60 +1,74 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom';
 import "./Navbar.css"
+import Hamburger from '../Hamburger/Hamburger'
 
 
 function Navbar() {
-  return (
-    <div className="navbar">
-    <ul className="nav ">
-      <li className="nav-item">
-            <NavLink
-            to="/"
-            end
-            className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-            }
-            >
-            HOME
-            </NavLink>
-      </li>
-      <li className="nav-item">
-            <NavLink
-            to="projectsgallery"
-            className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-            }
-            >
-            PROJECTS
-            </NavLink>
-      </li>
-     
-      <li className="nav-item">
-            <NavLink
-            to="contact"
-            end
-            className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-            }
-            >
-            CONTACT
-            </NavLink>
-      </li>
-      <li className="nav-item">
-            <NavLink
-            to="resume"
-            end
-            className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-            }
-            >
-            RESUME
-            </NavLink>
-      </li>
-      
-    </ul>
-    </div>
-  );
-}
 
-export default Navbar;
+    const [hamburgerOpen,setHamburgerOpen] =useState(false);
+    
+
+    const toggleHamburger = () => {
+        setHamburgerOpen(!hamburgerOpen)
+
+    }
+    return (
+    <>
+    <div className="navigation">
+            <ul>
+            <li >
+                <NavLink
+                    to="/"
+                    end
+                    className={({ isActive }) =>
+                        isActive ? 'nav-link active' : 'nav-link'
+                    }
+                    >
+                    Home
+                </NavLink>
+           </li>
+           <li >
+                <NavLink
+                to="projectsgallery"
+                className={({ isActive }) =>
+                    isActive ? 'nav-link active' : 'nav-link'
+                }
+                >
+                Projects
+                </NavLink>
+            </li>
+            <li >
+                <NavLink
+                to="resume"
+                end
+                className={({ isActive }) =>
+                    isActive ? 'nav-link active' : 'nav-link'
+                }
+                >
+                Resume
+                </NavLink>
+            </li>
+            <li>
+                <NavLink
+                    to="contact"
+                    end
+                    className={({ isActive }) =>
+                        isActive ? 'nav-link active' : 'nav-link'
+                    }
+                    >
+                    Contact
+                </NavLink>
+            </li>
+                
+            </ul>
+    <div className="hamburger" onClick={toggleHamburger}>
+        <Hamburger isOpen={hamburgerOpen}/>
+    </div>
+
+    </div>
+    </>
+    );
+    }
+
+export default Navbar

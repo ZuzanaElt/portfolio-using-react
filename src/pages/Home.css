@@ -1,0 +1,30 @@
+.home-layout{
+    background-color:rgb(214, 196, 196);
+    display:flex;
+    width:98%;
+}
+.left-side{
+    
+    width: 40%; 
+}
+.right-side{
+   
+    width: 60%;
+    font-size:30px;
+    padding:20vh 20vh 10vh 10vh;
+}
+.cursive-text{
+    padding-bottom:20px;
+    font-size:60px;
+}
+.selfie{
+    
+    width:300px;
+    border:1px solid brown;
+    border-radius:200px;
+
+}
+.intro-text{
+    padding-bottom:10px;
+
+}

@@ -124,3 +124,9 @@ This challenge is assessed on the following criteria:
 * Repository contains quality README file with description, screenshot, and link to deployed application.
 ---
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+
+Using https://react-icons.github.io/react-icons/search?q=falinkedinin
+https://devjoe.medium.com/contact-form-with-react-using-emailjs-5bdd8bf1524b
+with update
+https://stackoverflow.com/questions/73178648/emailjs-not-getting-resolved-even-after-installing-it

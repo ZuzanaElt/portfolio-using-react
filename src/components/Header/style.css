@@ -7,6 +7,7 @@
     justify-content:space-between;
     padding:3px; 
     height:5px;
+   
   
 }
 
@@ -29,6 +30,13 @@
   /* padding: 5px 20px ; */
   justify-items:center;
   padding:3vh;
-  
- 
+}
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  .name-tag{
+    font-size: 16px;
+  }
 }

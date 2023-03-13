@@ -8,7 +8,7 @@ function ProjectsGallery() {
   const [projectsArray] = useState(ProjectsData)
 
   return(
-    <div>
+    <div className="projects-layout">
       <h1  className="pageName" > Projects</h1>
       <section className="cards">
       {projectsArray.map((props) => (
@@ -22,7 +22,9 @@ function ProjectsGallery() {
       />
       ))     
       }
+    
       </section>
+      
     </div>
 )
 };
