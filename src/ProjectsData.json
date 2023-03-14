@@ -1,8 +1,7 @@
 [{
     "id": 1,
     "name": "Animaletics",
-    // "screenshot":"./portfolio-using-react/images/animaletics.png",
-    "screenshot":"/images/animaletics.png"
+    "screenshot":"./images/animaletics.png",
     "deploymentLink": "https://dalvat.github.io/animaletics-api-app/",
     "githubRepo":"https://github.com/ZuzanaElt/animaletics-api-app",
     "additionalInfo":"Fun App for 5 to 7 year olds to help them learn about animals"
