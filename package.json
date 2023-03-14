@@ -1,7 +1,7 @@
 {
   "name": "zapupster",
   "version": "0.1.0",
-  "homepage": "https://ZuzanaElt.github.io/portfolio-using-react",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
