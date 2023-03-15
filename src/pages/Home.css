@@ -4,8 +4,13 @@
     width:98%;
 }
 .left-side{
-    
     width: 40%; 
+}
+#border-top{
+    border-bottom: 6px solid brown;
+    bottom: 30%;
+    width: 22em;
+    
 }
 .right-side{
    
@@ -25,14 +30,10 @@
 .selfie{
     width:300px;
     border:1px solid brown;
-    border-radius:200px;
+    border-radius:150px;
 }
 
-@media only screen and(max-width: 480px){
-    .selfie{
-        width:100px;
-    }
-}
+
 .intro-text{
     padding-bottom:10px;
 
@@ -42,4 +43,10 @@
     padding-top:10px;
     margin-left:10px;
     z-index:10;
+}
+@media only screen and(max-width: 480px){
+    .selfie{
+        width:100px;
+    }
+    
 }

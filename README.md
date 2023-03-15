@@ -13,6 +13,8 @@ Pages include Home, Projects, Resume, Contact.
   The portfolio can be found here:
   https://main--sweet-croissant-323f74.netlify.app/projectsgallery
 
+  
+
 ## Table of Contents
 
  
@@ -27,7 +29,7 @@ Pages include Home, Projects, Resume, Contact.
 -----
 
 ## Usage
-  After deployment the portfolio can be used for its intended purpose.
+  After deployment the portfolio can be used for its intended purpose of advertising my work
 
 
   
@@ -40,6 +42,8 @@ Contact email: zuzanaeltom@gmail.com
 Main chalenges were to ensure that images are deployed correctly - and ensure the path works.
 Different deployment services have different paths for images and ensuring that these work was tricky.
 Also undestanding the state in React, as it is a new concept, is still something that more work needs to be done on.
+Flow of steps to deploy:
+  https://create-react-app.dev/docs/deployment/#github-pages
 
 ## License
 This application is covered under MIT Licence licence. 
