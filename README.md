@@ -11,7 +11,7 @@ Pages include Home, Projects, Resume, Contact.
 ## Deployment
 
   The portfolio can be found here:
-  https://main--sweet-croissant-323f74.netlify.app/projectsgallery
+  https://main--sweet-croissant-323f74.netlify.app
 
 ## Table of Contents
 
