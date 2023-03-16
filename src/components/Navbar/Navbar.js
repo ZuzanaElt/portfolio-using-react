@@ -35,7 +35,7 @@ function Navbar() {
                     isActive ? 'nav-link active' : 'nav-link'
                 }
                 >
-                Projects
+                My work
                 </NavLink>
             </li>
             <li >

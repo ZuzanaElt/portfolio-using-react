@@ -5,7 +5,12 @@
   
 }
 body {
-    background-color: #FCEDDA;
+    background-color: #fae9d2;
+    background-image: url("./assets/images/vecteezy_amended.jpg");
+    background-position:center;
+    background-size:cover;
+  
+    
     color: #EE4E34;
     padding: 0px;
     margin: 0;

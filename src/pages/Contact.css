@@ -1,5 +1,5 @@
 .contact-layout {
-    background-color:#FCEDDA;
+    /* background-color:#EE4E34; */
     display:flex;
     width:98%;
 }
@@ -10,39 +10,44 @@
     grid-template-columns: auto;
     margin:auto;
     margin-left: 20%;
+   
 
 }
 .get-in-touch{
     font-size :25px;
     padding-bottom: 20px;
     padding-top: 10px;
+    color:#EE4E34;
+    
 }
 textarea {
   width: 100%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
-  /* border: 2px solid #ccc; */
   border-radius: 4px;
-  background-color: white;
   resize: none;
 }
-
+label{
+  font-weight: bold;
+}
 input{ width:100%;}
 .fields{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid #f79687;
+    
     border-radius: 4px;
+    background-color:#EE4E34;
   }
 
   input[type=submit]{
-    background-color:#EE4E34;
+    /* background-color:#fcf0e1; */
     text-align: center;
-    border: none;
-    color: #FCEDDA;
+    font-weight: bold;
+    color:white;
+    background-color:#EE4E34;
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
@@ -64,7 +69,7 @@ input{ width:100%;}
       padding:0;
     }
     .contact-layout {
-        background-color:olive;
+        
         display:flex;
         width:98%;
     }

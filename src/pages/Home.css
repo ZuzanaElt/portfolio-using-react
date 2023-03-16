@@ -1,5 +1,6 @@
 .home-layout{
-    background-color:#FCEDDA;
+    /* background-color:#FCEDDA; */
+    
     display:flex;
     width:98%;
 }
@@ -40,13 +41,10 @@
     width:220px;
     border:1px solid #EE4E34;
     border-radius:150px;
-  
     margin-top:9em;
     margin-right:3em;
     margin-left:2em;
-   
 }
-
 
 .intro-text{
     padding-bottom:10px;
@@ -66,9 +64,9 @@
     #border-top{
       width:9em;
     }
-    .left-side{
+    /* .left-side{
         display:none;
-    }
+    } */
     .right-side{
         
         margin-right:2em;    
