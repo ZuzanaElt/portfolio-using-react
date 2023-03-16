@@ -1,8 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-//import ProjectsData from "../../ProjectsData.json";
-//import animaleticsImage from "../../../src/assets/images/animaletics.png"
-import "./ProjectCardTemplate.css"
 
 
 //THIS IS FOR THE GALLERY

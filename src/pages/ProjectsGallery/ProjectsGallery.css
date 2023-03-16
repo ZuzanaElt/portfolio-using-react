@@ -1,14 +1,6 @@
-.projects-layout{
-    background-color:#fcf4d8;
-}
-/* .pageName{
-    background-color:#FCEDDA;
-    color:#EE4E34;
-    padding-left:20px;
-} */
+
 .cards{
     display: grid;
-    /* grid-gap: 1rem; */
     text-align: left;
     grid-template-columns: repeat(auto-fill, minmax(50vh, 2fr));
     margin:12pt;
@@ -17,23 +9,14 @@
      
 }
 .card{
-    /* border: 5px solid #EE4E34; */
     background-color:#FCEDDA;
-    /* display:flex; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: column; */
     justify-content: center;
-    /* width:80%; */
     text-align: center;
     border-radius: 4px;
-    /* padding: .5rem; */
     box-shadow: 5px 5px 15px rgb(209, 191, 191);
-  
     height: 25pc;
     overflow:auto;
     border-bottom:15px solid #FCEDDA;
-    /* margin-bottom:5px; */
-
 }
 .proj-title{
     font-size:28px; 
@@ -51,19 +34,11 @@
 .project-info{
     text-align: center;
     font: 22px;
-    /* display:flex;
-    flex-wrap: wrap;  */
- 
- padding:5px;
- margin-top:25px;
+    padding:5px;
+    margin-top:25px;
 }
 
-/* .thick-line{
-    border:7px solid brown;
-    position:bottom;
-} */
 button {
-    /* padding:5% 5px; */
     margin-right: 5%;
     border-color:#FCEDDA;
     color:#EE4E34;
@@ -71,12 +46,12 @@ button {
     background-color:#FCEDDA;
 }
 .buttons :hover {
-    
     font-size:medium;
     font-weight: 600;
-    
 }
 
 @media screen and (max-width: 600px){
-    .cards{padding-right:0.5em;}
+    .cards{
+        padding-right:0.5em;
+    };   
 }

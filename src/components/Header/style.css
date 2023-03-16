@@ -7,17 +7,20 @@
     justify-content:space-between;
     padding:3px; 
     height:5px;
-   
-  
 }
 
+.nav-link{
+  text-decoration:none;
+  color:#EE4E34;
+}
 .nav-item {
   display: inline-block;
   font-size: 16px;
   padding: 5px 20px ;
   justify-content:space-between;
-  color:#EE4E34;
+  
   align-items: baseline;
+  
 }
 .name-tag{
   /* display:flex; */
@@ -31,6 +34,8 @@
   justify-items:center;
   padding:3vh;
   padding-left:4vh;
+  text-decoration-line: none;
+  
 }
 @media screen and (max-width: 600px) {
   .topnav a {

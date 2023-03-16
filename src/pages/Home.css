@@ -1,5 +1,4 @@
 .home-layout{
-    /* background-color:#FCEDDA; */
     
     display:flex;
     width:98%;
@@ -64,9 +63,9 @@
     #border-top{
       width:9em;
     }
-    /* .left-side{
+    .left-side{
         display:none;
-    } */
+    } 
     .right-side{
         
         margin-right:2em;    
@@ -80,9 +79,3 @@
     }
    
 }
-/* @media screen and (max-width: 760px){
-    .selfie{
-        display:none;
-    } */
-    
-/* } */
