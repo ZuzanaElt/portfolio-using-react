@@ -2,9 +2,8 @@
 .navigation{
     width:100%;
     height: 50px;
-    
-
-}
+  
+    }
 .navigation ul{
     /* display: ${hamburgerOpen ? 'inline':'none' }; */
     display: flex;
@@ -12,11 +11,13 @@
     float:right;
     margin:20 0px;
     padding: 0 25px;
-
+   
 }
 .navigation ul li {
     list-style-type:none;
     padding-right:10px;
+    font-size: 18px;
+    
 }
 .navigation ul :hover{
     font-size: 20px;

@@ -1,5 +1,5 @@
 .contact-layout {
-    background-color:rgb(214, 196, 196);
+    background-color:#FCEDDA;
     display:flex;
     width:98%;
 }
@@ -22,9 +22,9 @@ textarea {
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
+  /* border: 2px solid #ccc; */
   border-radius: 4px;
-  background-color: #f8f8f8;
+  background-color: white;
   resize: none;
 }
 
@@ -34,15 +34,15 @@ input{ width:100%;}
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid brown;
+    border: 2px solid #f79687;
     border-radius: 4px;
   }
 
   input[type=submit]{
-    background-color: brown;
+    background-color:#EE4E34;
     text-align: center;
     border: none;
-    color: white;
+    color: #FCEDDA;
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
@@ -53,6 +53,9 @@ input{ width:100%;}
   .submit-button{
     justify-content:center ;
     
+  }
+  .submit-button :hover{
+    color:blue;
   }
   @media screen and (max-width: 480px) {
     .submit-button {

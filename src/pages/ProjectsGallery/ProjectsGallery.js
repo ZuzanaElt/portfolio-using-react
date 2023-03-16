@@ -10,7 +10,7 @@ function ProjectsGallery() {
 
   return(
     <div className="projects-layout">
-      <h1  className="pageName" > Projects</h1>
+      {/* <h1  className="pageName" > Projects</h1> */}
       <section className="cards">
       {projectsArray.map((props) => (
           <ProjectCardTemplate

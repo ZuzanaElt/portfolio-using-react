@@ -1,8 +1,8 @@
 .header{
     display:inline-flex;
     width:100%;
-    border-bottom: 4px solid brown;
-    border-top: 6px solid brown;
+    border-bottom: 4px solid #EE4E34;
+    border-top: 6px solid #EE4E34;
     list-style-type: none;
     justify-content:space-between;
     padding:3px; 
@@ -16,7 +16,7 @@
   font-size: 16px;
   padding: 5px 20px ;
   justify-content:space-between;
-  color:black;
+  color:#EE4E34;
   align-items: baseline;
 }
 .name-tag{
@@ -24,12 +24,13 @@
   align-content:center;
   
    /* align-items: flex-start; */
-  color:black;
+  color:#EE4E34;
   font-weight: bold;
   font-size: 20px;
   /* padding: 5px 20px ; */
   justify-items:center;
   padding:3vh;
+  padding-left:4vh;
 }
 @media screen and (max-width: 600px) {
   .topnav a {
