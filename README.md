@@ -80,3 +80,7 @@ Resume page
 Contact form page
 
 ![contact form page](src/assets/images/contact%20form.png)
+
+Background image:
+    https://www.vecteezy.com/free-vector/website-background">Website Background Vectors by Vecteezy
+
