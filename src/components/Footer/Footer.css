@@ -5,16 +5,15 @@
       left:0;
       bottom:0;
       width:100%;
-      
       height:50px;
       display:flex;
-      justify-content: right;
+      /* justify-content: right; */
       align-content: center;
+      justify-content:space-between;
       
 }
 .footer-content{
     padding:10px 5px 10px 0px;
-    
     font-size: 25px;
     margin-right:8%;
     color:#FCEDDA;
@@ -34,4 +33,48 @@
 
 .linked-color :hover{
     color:blue;
+}
+.skills-icons{
+    
+    font-size: 30px;
+    display:flex;
+    align-items:center;
+    padding-left:2em;
+    margin-right:10px;
+    justify-items:center;
+    justify-content:space-evenly ;
+    color:#FCEDDA;
+}
+.icon{
+    padding-left:14px; 
+    color:#FCEDDA;
+    display:flex;
+}
+@media screen and (max-width: 600px){
+    .icon{
+    padding-top:3px;  
+    color:#FCEDDA;
+    display:flex;
+    };  
+    .skills-icons{
+        font-size: 25px;
+        display:flex;
+        margin-top: 5px;
+        color:#FCEDDA;
+        justify-content: center;
+    } 
+    .footer{
+        display:block;
+        height:80px;
+    }
+    
+    .footer-content{
+        justify-content: center;
+        color:#FCEDDA;
+        display:flex;
+    }
+    #contact-me{
+        padding-right:4px;
+    }
+  
 }
