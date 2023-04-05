@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../assets/images/ZuzanaKnightova2023.pdf'
+import pdf from '../assets/images/ZuzanaKnightova2023-2.pdf'
 
 
 
