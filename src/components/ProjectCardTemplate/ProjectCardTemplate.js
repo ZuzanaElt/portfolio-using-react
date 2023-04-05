@@ -46,7 +46,7 @@ function ProjectCardTemplate (ProjectsData){
                  
                   </div> 
                   <div className="thick-line">
-                  <p   valign="bottom" ></p>
+                  <p align="bottom" ></p>
                   </div>
               </section>
                

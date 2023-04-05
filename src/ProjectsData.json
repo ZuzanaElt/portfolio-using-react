@@ -31,6 +31,15 @@
     "additionalInfo":"Let's generate a mind-bending password"
   },
   {
+    "id": 7,
+    "name": "Snappy",
+    "screenshot": "./images/snappy-screenshot.png",
+    "deploymentLink": "https://phenomenal-alfajores-f3e735.netlify.app/",
+    "githubRepo":"https://github.com/ZuzanaElt/snappy",
+    "additionalInfo":"Matching card game for toddlers and young children"
+
+  },
+  {
     "id": 5,
     "name": "README generator",
     "screenshot": "./images/readmePageGenerator.png",
