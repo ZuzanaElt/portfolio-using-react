@@ -2,7 +2,7 @@
 .cards{
     display: grid;
     text-align: left;
-    grid-template-columns: repeat(auto-fill, minmax(50vh, 2fr));
+    grid-template-columns: repeat(auto-fill, minmax(40vh, 2fr));
     margin:12pt;
     margin-left: 15pt;
     padding-bottom: 25px;
@@ -14,7 +14,7 @@
     text-align: center;
     border-radius: 4px;
     box-shadow: 5px 5px 15px rgb(209, 191, 191);
-    height: 25pc;
+    /* height: 30pc; */
     overflow:auto;
     border-bottom:15px solid #FCEDDA;
 }
@@ -53,5 +53,7 @@ button {
 @media screen and (max-width: 600px){
     .cards{
         padding-right:0.5em;
+        grid-template-columns: repeat(auto-fill, minmax(40vh, 4fr));
     };   
 }
+

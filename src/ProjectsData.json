@@ -54,6 +54,14 @@
     "deploymentLink": " https://zuzanaelt.github.io/Team-profile-generator/",
     "githubRepo":"https://github.com/ZuzanaElt/Team-profile-generator",
     "additionalInfo":"Generator to create a page of your team"
+  },
+  {
+    "id": 8,
+    "name": "Knowledge Quiz",
+    "screenshot": "./images/quiz.png",
+    "deploymentLink": "https://zuzanaelt.github.io/JavaScript-quiz/",
+    "githubRepo":"https://github.com/ZuzanaElt/JavaScript-quiz",
+    "additionalInfo":"Test your fundamental coding skills"
   }
 
 ]
