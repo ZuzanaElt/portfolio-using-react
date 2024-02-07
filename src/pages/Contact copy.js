@@ -1,18 +1,16 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
-import Modal from './Modal';
-
-
 
 
 export const Contact = () => {
-  const [isModalopen, setModalOpen] = useState(false);
+  
   const form = useRef();
   const sendEmail = (event) => {
    event.preventDefault()
    ;
-  emailjs.sendForm( 'service_n5ndsk5',                     
+  emailjs.sendForm( 'service_n5ndsk5', 
+                    '',
                     'contact for to Zuzana', 
                     form.current, 
                     'HzJ2zCbcm-ePZvnbE')
@@ -52,15 +50,11 @@ export const Contact = () => {
             <textarea name="message" className="fields" id="message" />
             </div>
             <div className="submit-button">
-            <button type="submit" value="Send" 
-            onClick={() => setModalOpen(true)}>Send message</button>
+            <input type="submit" value="Send" 
+          
+            >Send message</input>
            
-           {isModalopen && (
-                <Modal onClose={() => setModalOpen(false)}>
-                  <h2>Thank you for your message.</h2>
-                  <p>I will contact you shortly.</p>
-                </Modal>
-)}
+        
           </div>
           </div>
         </form>

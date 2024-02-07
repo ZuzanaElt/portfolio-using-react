@@ -59,10 +59,11 @@ input{ width:100%;}
     justify-content:center ;
   }
   .submit-button :hover{
-    color:blue;
+    color:rgb(249, 231, 231);
   }
   @media screen and (max-width: 600px) {
     .submit-button {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       width:100px;
       margin-left:0;
       padding:0;
